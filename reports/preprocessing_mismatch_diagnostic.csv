@@ -1,0 +1,9 @@
+symbol,date,feature,position,training_dtype,inference_dtype,training_value,inference_value,absolute_difference,relative_difference
+RELIANCE,2021-02-12,India_VIX_Close,40,float64,float64,23.045,,,
+RELIANCE,2021-02-12,India_VIX_Daily_Change,41,float64,float64,0.0,,,
+RELIANCE,2021-03-30,India_VIX_Close,40,float64,float64,20.65,,,
+RELIANCE,2021-03-30,India_VIX_Daily_Change,41,float64,float64,0.0,,,
+TCS,2021-02-12,India_VIX_Close,40,float64,float64,23.045,,,
+TCS,2021-02-12,India_VIX_Daily_Change,41,float64,float64,0.0,,,
+TCS,2021-03-30,India_VIX_Close,40,float64,float64,20.65,,,
+TCS,2021-03-30,India_VIX_Daily_Change,41,float64,float64,0.0,,,

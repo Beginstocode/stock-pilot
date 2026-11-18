@@ -1,0 +1,81 @@
+{
+  "label_to_id": {
+    "BUY": 0,
+    "HOLD": 1,
+    "SELL": 2
+  },
+  "id_to_label": {
+    "0": "BUY",
+    "1": "HOLD",
+    "2": "SELL"
+  },
+  "feature_columns": [
+    "Adj Close",
+    "Close",
+    "High",
+    "Low",
+    "Open",
+    "Volume",
+    "Daily_Return",
+    "Return_5D",
+    "Return_10D",
+    "Return_20D",
+    "SMA_5",
+    "SMA_10",
+    "SMA_20",
+    "SMA_50",
+    "SMA_100",
+    "SMA_200",
+    "EMA_12",
+    "EMA_26",
+    "RSI_14",
+    "MACD",
+    "MACD_Signal",
+    "MACD_Histogram",
+    "ROC_10",
+    "Volatility_10D",
+    "Volatility_20D",
+    "Volatility_30D",
+    "BB_Upper_20",
+    "BB_Middle_20",
+    "BB_Lower_20",
+    "ATR_14",
+    "Volume_Change",
+    "Avg_Volume_20D",
+    "Relative_Volume",
+    "High_Low_Pct",
+    "Open_Close_Pct",
+    "Daily_Price_Range",
+    "NIFTY_Daily_Return",
+    "NIFTY_Return_5D",
+    "NIFTY_Return_20D",
+    "India_VIX_Close",
+    "India_VIX_Daily_Change"
+  ],
+  "best_parameters": {
+    "n_estimators": 200,
+    "max_depth": 3,
+    "learning_rate": 0.05,
+    "class_weight": "balanced"
+  },
+  "random_seed": 42,
+  "purge_trading_days": 5,
+  "split": {
+    "train_date_range": [
+      "2019-01-01",
+      "2024-05-23"
+    ],
+    "validation_date_range": [
+      "2024-05-31",
+      "2025-07-16"
+    ],
+    "test_date_range": [
+      "2025-07-24",
+      "2026-09-15"
+    ],
+    "train_rows": 10640,
+    "validation_rows": 2248,
+    "test_rows": 2295,
+    "purged_trading_dates": 10
+  }
+}

@@ -1,0 +1,74 @@
+# Local secrets and environment configuration
+.env
+.env.*
+!.env.example
+frontend/.env.*
+!frontend/.env.example
+
+# Python environments, bytecode, and test/cache output
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.cache/
+.transformers_cache/
+.coverage
+.coverage.*
+htmlcov/
+tests/.pytest-temp/
+tests/refresh-promotion-*/
+.pytest-*/
+.tmp/
+tmp/
+tmp*/
+
+# Node dependencies and generated frontend output
+node_modules/
+frontend/dist/
+dist/
+.dist/
+build/
+.vite/
+
+# Locally provisioned datasets (see data/README.md)
+data/*
+!data/README.md
+
+# Model weights and serialized local models
+models/*.pkl
+models/*.pickle
+models/*.joblib
+models/*.pt
+models/*.pth
+models/*.onnx
+
+# Logs, local databases, and worker locks
+*.log
+*.sqlite
+*.sqlite3
+*.db
+data/processed/.news_outcome_worker.lock
+/reports/*backup*/
+/reports/pre_vix_repair_*/
+/reports/targeted_vix_repair/
+
+# Private keys and credential artifacts
+secrets/
+*.pem
+*.key
+id_rsa
+id_ed25519
+credentials*.json
+*_service_account.json
+
+# OS/editor scratch files
+.DS_Store
+Thumbs.db
+desktop.ini

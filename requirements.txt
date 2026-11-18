@@ -1,0 +1,24 @@
+# Runtime dependencies (versions validated in the StockPilot release workspace)
+beautifulsoup4==4.15.0
+bcrypt==5.0.0
+fastapi==0.162.0
+feedparser==6.0.14
+httpx==0.28.1
+joblib==1.6.0
+numpy==2.5.3
+pandas==3.0.6
+psycopg[binary]==3.3.8
+pydantic==2.14.2
+PyJWT==2.15.1
+python-dotenv==1.2.4
+requests==2.34.2
+scikit-learn==1.9.1
+SQLAlchemy==2.1.8
+torch==2.15.0
+transformers==5.22.1
+uvicorn[standard]==0.54.0
+xgboost==3.4.1
+yfinance==1.7.0
+
+# Backend test suite
+pytest==9.2.0
